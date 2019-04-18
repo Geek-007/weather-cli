@@ -386,7 +386,7 @@ def get_weather_detail(site):
         data += '风力: %s\n' % wind['power']
         data += '风速: %s 米/秒\n' % wind['speed']
         data += '温度: %s 摄氏度\n' % we['temperature']
-        data += '气压: %s 帕\n' % we['airpressure']
+        data += '气压: %s 百帕\n' % we['airpressure']
         data += '体感温度: %s 摄氏度\n' % we['feelst']
         data += '天气: %s\n' % we['info']
         data += '最近更新: %s\n' % body['publish_time']
